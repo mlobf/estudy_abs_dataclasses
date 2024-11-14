@@ -1,6 +1,7 @@
 import pytest
 import json
-from ..main import BonusNonMonetaryFinancialController
+from ..implementacao import BonusNonMonetaryFinancialController
+from ..dataclasses_base.dataclass import DataBonusNonMonetaryFinancialController
 
 
 # Carregar dados do JSON uma vez para usar em todos os testes

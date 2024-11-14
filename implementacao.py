@@ -21,7 +21,7 @@ class BonusNonMonetaryFinancialController(BaseBonusNonMonetaryFinancialControlle
             """Instância de BonusNonMonetaryFinancialController criada \n 
             com last_prize=%s, free_games_award=%s, free_games_balance=%s""",
             data.last_prize,
-            data.free_games_award,
+            data.award_list,
             data.free_games_balance,
         )
 
@@ -36,7 +36,7 @@ class BonusNonMonetaryFinancialController(BaseBonusNonMonetaryFinancialControlle
 
     def is_refundable(self) -> bool:
         """Verifica se houve ocorrência da situação passível de estorno."""
-        result = self.last_prize > 0 and bool(self.free_games_award_list)
+        result = self.last_prize > 0 and bool(self.free_games_award)
         logger.info("Método is_refundable executado com resultado: %s", result)
         return result
 
@@ -99,4 +99,4 @@ class BonusNonMonetaryFinancialController(BaseBonusNonMonetaryFinancialControlle
         return print("hi")
 
 
-class OutroBonus(BonusNonMonetaryFinancialController): ...
+# class OutroBonus(BonusNonMonetaryFinancialController): ...

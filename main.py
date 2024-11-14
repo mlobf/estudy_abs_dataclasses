@@ -14,9 +14,11 @@ if __name__ == "__main__":
         FreeGamesAward(minha_lista),
         50,
     ]
+
     controller = BonusNonMonetaryFinancialController(
         data=DataBonusNonMonetaryFinancialController(*payload)
     )
+
     print(controller.is_refundable())
     print(controller.deduct_from_prize(10))
     controller.set_cache()

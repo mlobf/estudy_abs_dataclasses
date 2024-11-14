@@ -12,5 +12,5 @@ class FreeGamesAward:
 @dataclass
 class DataBonusNonMonetaryFinancialController:
     last_prize: float
-    free_games_award: FreeGamesAward
+    award_list: FreeGamesAward
     free_games_balance: float
