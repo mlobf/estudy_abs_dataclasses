@@ -1,0 +1,103 @@
+[
+  {
+    "last_prize": 100.0,
+    "free_games_award": [10, 20, 30],
+    "free_games_balance": 50.0
+  },
+  {
+    "last_prize": 200.0,
+    "free_games_award": [5, 15, 25],
+    "free_games_balance": 100.0
+  },
+  {
+    "last_prize": 50.0,
+    "free_games_award": [0],
+    "free_games_balance": 10.0
+  },
+  {
+    "last_prize": 0.0,
+    "free_games_award": [],
+    "free_games_balance": 0.0
+  },
+  {
+    "last_prize": 150.0,
+    "free_games_award": [10, 50],
+    "free_games_balance": 75.0
+  },
+  {
+    "last_prize": 500.0,
+    "free_games_award": [100, 200, 300],
+    "free_games_balance": 250.0
+  },
+  {
+    "last_prize": 10.0,
+    "free_games_award": [5],
+    "free_games_balance": 5.0
+  },
+  {
+    "last_prize": 0.0,
+    "free_games_award": [10],
+    "free_games_balance": 5.0
+  },
+  {
+    "last_prize": 1000.0,
+    "free_games_award": [50, 100, 150],
+    "free_games_balance": 500.0
+  },
+  {
+    "last_prize": 300.0,
+    "free_games_award": [30, 60, 90],
+    "free_games_balance": 150.0
+  },
+
+  {
+    "last_prize": 100.0,
+    "free_games_award": [10, 20, 30],
+    "free_games_balance": 50.0
+  },
+  {
+    "last_prize": 200.0,
+    "free_games_award": [5, 15, 25],
+    "free_games_balance": 100.0
+  },
+  {
+    "last_prize": 50.0,
+    "free_games_award": [0],
+    "free_games_balance": 10.0
+  },
+  {
+    "last_prize": 0.0,
+    "free_games_award": [],
+    "free_games_balance": 0.0
+  },
+  {
+    "last_prize": 150.0,
+    "free_games_award": [10, 50],
+    "free_games_balance": 75.0
+  },
+  {
+    "last_prize": 500.0,
+    "free_games_award": [100, 200, 300],
+    "free_games_balance": 250.0
+  },
+  {
+    "last_prize": 10.0,
+    "free_games_award": [5],
+    "free_games_balance": 5.0
+  },
+  {
+    "last_prize": 0.0,
+    "free_games_award": [10],
+    "free_games_balance": 5.0
+  },
+  {
+    "last_prize": 1000.0,
+    "free_games_award": [50, 100, 150],
+    "free_games_balance": 500.0
+  },
+  {
+    "last_prize": 300.0,
+    "free_games_award": [30, 60, 90],
+    "free_games_balance": 150.0
+  }
+]
